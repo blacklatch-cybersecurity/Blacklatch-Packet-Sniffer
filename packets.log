@@ -1,0 +1,845 @@
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+21:02:24.844872 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:02:24.845585 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:02:27.797203 enp0s3 M   IP6 fe80::2 > ff02::1: ICMP6, router advertisement, length 80
+21:02:27.808339 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:02:27.991799 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:02:30.031590 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:02:30.032417 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:03:25.017493 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:03:25.018642 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:03:30.191209 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:03:30.196507 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:04:25.900791 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:04:25.901405 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:04:30.990478 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:04:30.991758 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:05:25.024789 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:05:25.209023 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:05:26.115916 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:05:26.116289 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:05:30.085459 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:05:30.085718 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:05:31.150731 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:05:31.151577 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:05:42.026235 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:05:42.077136 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:05:56.025022 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2402:1f00:8300:821::123.123: NTPv4, Client, length 48
+21:05:56.047280 enp0s3 In  IP6 2402:1f00:8300:821::123.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:06:01.230674 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:06:01.231367 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:06:26.814895 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:06:26.815233 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:06:31.025555 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:06:31.479897 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:06:31.950414 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:06:31.950999 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:06:36.217518 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:06:36.218352 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:07:04.025415 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:07:04.265128 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:07:09.071638 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:07:09.072914 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:07:26.938955 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:07:26.939688 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:07:28.025147 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:07:28.057688 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:07:32.110828 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:07:32.111625 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:07:33.177468 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:07:33.178316 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:08:27.012461 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:08:27.013184 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:08:32.058551 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:08:32.059643 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+21:12:28.982353 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:12:28.982906 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+21:12:34.191511 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:12:34.195043 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+tcpdump: data link type LINUX_SLL2
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type LINUX_SLL2 (Linux cooked v2), snapshot length 262144 bytes
+21:13:29.365031 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:13:29.365460 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:13:34.567330 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:13:34.567857 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:14:29.899498 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:14:29.899846 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:14:34.937334 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:14:34.938302 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:15:30.009305 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:15:30.009971 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:15:35.097463 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:15:35.098473 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:16:30.743413 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:16:30.744013 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:16:35.898555 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:16:35.902378 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:17:30.787897 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:17:30.788591 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:17:35.845714 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:17:35.846749 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:17:42.028346 enp0s3 M   IP6 fe80::2 > ff02::1: ICMP6, router advertisement, length 80
+21:17:42.037247 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:17:42.212371 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:18:31.286645 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:18:31.287202 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:18:36.431804 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:18:36.432750 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:19:12.605239 enp0s3 Out IP 10.0.2.15.39648 > 8.8.8.8.53: 20470+ A? push.services.mozilla.com. (43)
+21:19:12.605464 enp0s3 Out IP 10.0.2.15.39648 > 8.8.8.8.53: 29491+ AAAA? push.services.mozilla.com. (43)
+21:19:12.681913 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.39648: 29491 0/1/0 (124)
+21:19:12.681929 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.39648: 20470 1/0/0 A 34.107.243.93 (59)
+21:19:12.690077 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [S], seq 597167126, win 64240, options [mss 1460,sackOK,TS val 173844258 ecr 0,nop,wscale 7], length 0
+21:19:12.721100 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [S.], seq 2175816705, ack 597167127, win 65535, options [mss 1460], length 0
+21:19:12.721284 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [.], ack 1, win 64240, length 0
+21:19:12.723924 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [P.], seq 1:1911, ack 1, win 64240, length 1910
+21:19:12.724535 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 1461, win 65535, length 0
+21:19:12.724569 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 1911, win 65535, length 0
+21:19:12.804941 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], seq 1:2881, ack 1911, win 65535, length 2880
+21:19:12.805213 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [.], ack 2881, win 65535, length 0
+21:19:12.806314 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [P.], seq 2881:3079, ack 1911, win 65535, length 198
+21:19:12.806435 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [.], ack 3079, win 65535, length 0
+21:19:12.821795 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [P.], seq 1911:1975, ack 3079, win 65535, length 64
+21:19:12.822901 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 1975, win 65535, length 0
+21:19:12.825229 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [P.], seq 1975:2067, ack 3079, win 65535, length 92
+21:19:12.826293 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 2067, win 65535, length 0
+21:19:12.842968 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [P.], seq 3079:3697, ack 2067, win 65535, length 618
+21:19:12.845350 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [P.], seq 2067:2098, ack 3697, win 65535, length 31
+21:19:12.849729 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 2098, win 65535, length 0
+21:19:12.852816 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [S], seq 611470877, win 64240, options [mss 1460,sackOK,TS val 173844421 ecr 0,nop,wscale 7], length 0
+21:19:12.853223 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [P.], seq 3697:3728, ack 2098, win 65535, length 31
+21:19:12.888965 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [S.], seq 2175880705, ack 611470878, win 65535, options [mss 1460], length 0
+21:19:12.889247 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [.], ack 1, win 64240, length 0
+21:19:12.891774 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [P.], seq 1:1251, ack 1, win 64240, length 1250
+21:19:12.893392 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [.], ack 1251, win 65535, length 0
+21:19:12.893858 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [.], ack 3728, win 65535, length 0
+21:19:12.942262 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [P.], seq 1:219, ack 1251, win 65535, length 218
+21:19:12.942532 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [.], ack 219, win 64022, length 0
+21:19:12.946495 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [P.], seq 1251:1315, ack 219, win 64022, length 64
+21:19:12.947623 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [.], ack 1315, win 65535, length 0
+21:19:12.948047 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [P.], seq 1315:1945, ack 219, win 64022, length 630
+21:19:12.948940 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [.], ack 1945, win 65535, length 0
+21:19:13.211845 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [P.], seq 219:1051, ack 1945, win 65535, length 832
+21:19:13.238506 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [P.], seq 1945:2084, ack 1051, win 63190, length 139
+21:19:13.242065 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [.], ack 2084, win 65535, length 0
+21:19:13.499790 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [P.], seq 1051:1243, ack 2084, win 65535, length 192
+21:19:13.540937 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [.], ack 1243, win 62998, length 0
+21:19:13.542820 enp0s3 Out IP 10.0.2.15.42660 > 8.8.8.8.53: 45493+ A? firefox.settings.services.mozilla.com. (55)
+21:19:13.577386 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.42660: 45493 5/0/0 CNAME mozilla.map.fastly.net., A 151.101.193.91, A 151.101.65.91, A 151.101.129.91, A 151.101.1.91 (155)
+21:19:13.583239 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [S], seq 3218112537, win 64240, options [mss 1460,sackOK,TS val 759192163 ecr 0,nop,wscale 7], length 0
+21:19:13.614860 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [S.], seq 2176008705, ack 3218112538, win 65535, options [mss 1460], length 0
+21:19:13.615316 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [.], ack 1, win 64240, length 0
+21:19:13.617994 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 1:223, ack 1, win 64240, length 222
+21:19:13.619011 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], ack 223, win 65535, length 0
+21:19:13.665900 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], seq 1:2881, ack 223, win 65535, length 2880
+21:19:13.666186 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [.], ack 2881, win 65535, length 0
+21:19:13.667547 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 2881:3064, ack 223, win 65535, length 183
+21:19:13.667679 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [.], ack 3064, win 65535, length 0
+21:19:13.670824 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 223:316, ack 3064, win 65535, length 93
+21:19:13.671788 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], ack 316, win 65535, length 0
+21:19:13.699124 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 3064:3322, ack 316, win 65535, length 258
+21:19:13.700349 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 316:415, ack 3322, win 65535, length 99
+21:19:13.700528 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 415:667, ack 3322, win 65535, length 252
+21:19:13.701073 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], ack 667, win 65535, length 0
+21:19:13.741262 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 3322:3394, ack 667, win 65535, length 72
+21:19:13.742623 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 667:705, ack 3394, win 65535, length 38
+21:19:13.745276 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 3394:6382, ack 705, win 65535, length 2988
+21:19:13.745517 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [.], ack 6382, win 65535, length 0
+21:19:13.746966 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 6382:10132, ack 705, win 65535, length 3750
+21:19:13.747231 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [.], ack 10132, win 65535, length 0
+21:19:13.752168 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 10132:11548, ack 705, win 65535, length 1416
+21:19:13.797199 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [.], ack 11548, win 65535, length 0
+21:19:31.850729 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:19:31.852087 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:19:37.018944 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:19:37.020171 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:20:11.727116 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [P.], seq 2098:2137, ack 3728, win 65535, length 39
+21:20:11.727853 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 2137, win 65535, length 0
+21:20:11.841497 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [P.], seq 3728:3767, ack 2137, win 65535, length 39
+21:20:11.841645 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [.], ack 3767, win 65535, length 0
+21:20:12.730495 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 705:751, ack 11548, win 65535, length 46
+21:20:12.731220 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], ack 751, win 65535, length 0
+21:20:12.820060 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 11548:11594, ack 751, win 65535, length 46
+21:20:12.820236 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [.], ack 11594, win 65535, length 0
+21:20:32.537055 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:20:32.537411 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:20:37.604803 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:20:37.605493 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:21:13.731987 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [P.], seq 2137:2176, ack 3767, win 65535, length 39
+21:21:13.732655 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 2176, win 65535, length 0
+21:21:13.732883 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 751:797, ack 11594, win 65535, length 46
+21:21:13.734073 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], ack 797, win 65535, length 0
+21:21:13.852057 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 11594:11640, ack 797, win 65535, length 46
+21:21:13.852250 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [.], ack 11640, win 65535, length 0
+21:21:13.856702 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [P.], seq 3767:3806, ack 2176, win 65535, length 39
+21:21:13.856743 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [.], ack 3806, win 65535, length 0
+21:21:32.811005 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:21:32.811550 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:21:37.978463 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:21:37.979930 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:22:02.829325 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [P.], seq 2176:2215, ack 3806, win 65535, length 39
+21:22:02.830226 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 2215, win 65535, length 0
+21:22:02.830366 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [FP.], seq 2215:2239, ack 3806, win 65535, length 24
+21:22:02.830839 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [.], ack 2240, win 65535, length 0
+21:22:03.132716 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34434: Flags [F.], seq 3806, ack 2240, win 65535, length 0
+21:22:03.132864 enp0s3 Out IP 10.0.2.15.34434 > 34.107.243.93.443: Flags [.], ack 3807, win 9344, length 0
+21:22:03.833950 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 797:843, ack 11640, win 65535, length 46
+21:22:03.835136 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], ack 843, win 65535, length 0
+21:22:03.836027 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [P.], seq 843:874, ack 11640, win 65535, length 31
+21:22:03.836451 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [F.], seq 874, ack 11640, win 65535, length 0
+21:22:03.837193 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], ack 874, win 65535, length 0
+21:22:03.837232 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [.], ack 875, win 65535, length 0
+21:22:03.907456 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [P.], seq 11640:11671, ack 875, win 65535, length 31
+21:22:03.907545 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [R], seq 3218113412, win 0, length 0
+21:22:03.907478 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [F.], seq 11671, ack 875, win 65535, length 0
+21:22:03.907878 enp0s3 Out IP 10.0.2.15.48672 > 151.101.193.91.443: Flags [R], seq 3218113412, win 0, length 0
+21:22:03.911312 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.48672: Flags [R.], seq 2118958591, ack 875, win 0, length 0
+21:22:33.676051 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:22:33.677765 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:22:38.778587 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:22:38.780526 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:22:50.024924 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:22:50.126166 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:22:55.204748 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:22:55.205455 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:23:10.024998 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:23:10.084672 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:23:33.722244 enp0s3 M   IP6 fe80::2 > ff02::1: ICMP6, router advertisement, length 80
+21:23:33.730598 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:23:34.616274 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:23:34.617191 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:23:34.699217 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:23:39.026344 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2402:1f00:8300:821::123.123: NTPv4, Client, length 48
+21:23:39.051889 enp0s3 In  IP6 2402:1f00:8300:821::123.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:23:39.791593 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:23:39.792313 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:23:44.057445 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:23:44.058407 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:23:49.024860 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:23:49.280048 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:24:13.549655 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [P.], seq 1243:1267, ack 2084, win 65535, length 24
+21:24:13.549939 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [.], ack 1267, win 62974, length 0
+21:24:13.551441 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [P.], seq 2084:2112, ack 1267, win 62974, length 28
+21:24:13.555799 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [.], ack 2112, win 65535, length 0
+21:24:34.024503 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:24:34.626364 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:24:34.627675 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:24:34.685338 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:24:39.097864 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:24:39.098999 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:24:39.737367 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:24:39.738149 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:24:44.024925 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:24:44.334709 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:25:34.821297 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:25:34.822580 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:25:39.897556 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:25:39.898820 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:26:35.224477 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:26:35.225617 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:26:40.270929 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:26:40.272238 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:27:35.820526 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:27:35.821296 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:27:40.861414 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:27:40.861807 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:28:13.025032 enp0s3 Out IP 10.0.2.15.123 > 192.46.215.60.123: NTPv4, Client, length 48
+21:28:13.080032 enp0s3 In  IP 192.46.215.60.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:28:35.926182 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:28:35.927232 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:28:41.017578 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:28:41.018787 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:29:13.962565 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [P.], seq 1267:1291, ack 2112, win 65535, length 24
+21:29:13.963230 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [P.], seq 2112:2140, ack 1291, win 62950, length 28
+21:29:13.966752 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [.], ack 2140, win 65535, length 0
+21:29:36.470941 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:29:36.471993 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:29:38.309724 enp0s3 Out IP 10.0.2.15.40146 > 8.8.8.8.53: 32403+ A? cdn.jsdelivr.net. (34)
+21:29:38.309998 enp0s3 Out IP 10.0.2.15.40146 > 8.8.8.8.53: 36831+ AAAA? cdn.jsdelivr.net. (34)
+21:29:38.417041 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.40146: 36831 5/0/0 CNAME jsdelivr.map.fastly.net., AAAA 2a04:4e42:600::485, AAAA 2a04:4e42:200::485, AAAA 2a04:4e42::485, AAAA 2a04:4e42:400::485 (180)
+21:29:38.427500 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.40146: 32403 5/0/0 CNAME jsdelivr.map.fastly.net., A 151.101.129.229, A 151.101.193.229, A 151.101.65.229, A 151.101.1.229 (132)
+21:29:38.440776 enp0s3 Out IP 10.0.2.15.39636 > 8.8.8.8.53: 32269+ Type65? cdn.jsdelivr.net. (34)
+21:29:38.442903 enp0s3 Out IP 10.0.2.15.57776 > 8.8.8.8.53: 24538+ A? cdn.jsdelivr.net. (34)
+21:29:38.725427 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.57776: 24538 5/0/0 CNAME jsdelivr.map.fastly.net., A 151.101.129.229, A 151.101.1.229, A 151.101.193.229, A 151.101.65.229 (132)
+21:29:38.725472 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.39636: 32269 1/1/0 CNAME jsdelivr.map.fastly.net. (129)
+21:29:38.747211 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [S], seq 2865870718, win 64240, options [mss 1460,sackOK,TS val 1751348212 ecr 0,nop,wscale 7], length 0
+21:29:38.887568 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [S.], seq 2254920705, ack 2865870719, win 65535, options [mss 1460], length 0
+21:29:38.887951 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [.], ack 1, win 64240, length 0
+21:29:38.894434 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 1:2397, ack 1, win 64240, length 2396
+21:29:38.895704 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 1461, win 65535, length 0
+21:29:38.895735 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 2397, win 65535, length 0
+21:29:38.896102 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 2397:2403, ack 1, win 64240, length 6
+21:29:38.896474 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 2403:2761, ack 1, win 64240, length 358
+21:29:38.897076 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 2403, win 65535, length 0
+21:29:38.897114 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 2761, win 65535, length 0
+21:29:39.177023 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], seq 1:2881, ack 2761, win 65535, length 2880
+21:29:39.177199 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [.], ack 2881, win 65535, length 0
+21:29:39.177846 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [P.], seq 2881:6151, ack 2761, win 65535, length 3270
+21:29:39.177928 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [.], ack 6151, win 65535, length 0
+21:29:39.196106 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 2761:2819, ack 6151, win 65535, length 58
+21:29:39.196631 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 2819, win 65535, length 0
+21:29:39.199157 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 2819:3177, ack 6151, win 65535, length 358
+21:29:39.200237 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 3177, win 65535, length 0
+21:29:39.227435 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [P.], seq 6151:6216, ack 3177, win 65535, length 65
+21:29:39.228755 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 3177:3208, ack 6216, win 65535, length 31
+21:29:39.231249 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 3208, win 65535, length 0
+21:29:39.231280 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [P.], seq 6216:7933, ack 3208, win 65535, length 1717
+21:29:39.231287 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [.], ack 7933, win 65535, length 0
+21:29:39.237750 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [P.], seq 7933:8238, ack 3208, win 65535, length 305
+21:29:39.280867 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [.], ack 8238, win 65535, length 0
+21:29:41.218358 enp0s3 Out IP 10.0.2.15.38325 > 8.8.8.8.53: 33474+ A? malware-filter.gitlab.io. (42)
+21:29:41.219933 enp0s3 Out IP 10.0.2.15.38325 > 8.8.8.8.53: 16446+ AAAA? malware-filter.gitlab.io. (42)
+21:29:41.265993 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.38325: 16446 1/0/0 AAAA 2600:1901:0:7b8a:: (70)
+21:29:41.266006 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.38325: 33474 1/0/0 A 35.185.44.232 (58)
+21:29:41.444936 enp0s3 Out IP 10.0.2.15.57930 > 8.8.8.8.53: 12252+ Type65? malware-filter.gitlab.io. (42)
+21:29:41.457916 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [S], seq 3742588243, win 64240, options [mss 1460,sackOK,TS val 1841208886 ecr 0,nop,wscale 7], length 0
+21:29:41.465490 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.57930: 12252 0/1/0 (105)
+21:29:41.709984 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [S], seq 1737570754, win 64240, options [mss 1460,sackOK,TS val 1841209138 ecr 0,nop,wscale 7], length 0
+21:29:41.739186 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [S.], seq 2255304705, ack 3742588244, win 65535, options [mss 1460], length 0
+21:29:41.739324 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 1, win 64240, length 0
+21:29:41.741242 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [P.], seq 1:1910, ack 1, win 64240, length 1909
+21:29:41.741966 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 1461, win 65535, length 0
+21:29:41.741978 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 1910, win 65535, length 0
+21:29:42.026560 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [S.], seq 2255432705, ack 1737570755, win 65535, options [mss 1460], length 0
+21:29:42.026664 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [.], ack 1, win 64240, length 0
+21:29:42.029059 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [P.], seq 1:1910, ack 1, win 64240, length 1909
+21:29:42.029854 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [.], ack 1461, win 65535, length 0
+21:29:42.029869 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [.], ack 1910, win 65535, length 0
+21:29:42.076394 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 1:1251, ack 1910, win 65535, length 1250
+21:29:42.076474 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 1251, win 65535, length 0
+21:29:42.082314 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 1251:5117, ack 1910, win 65535, length 3866
+21:29:42.082433 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 5117, win 65535, length 0
+21:29:42.250743 enp0s3 Out IP 10.0.2.15.60610 > 8.8.8.8.53: 22067+ A? ocsp.globalsign.com. (37)
+21:29:42.251488 enp0s3 Out IP 10.0.2.15.60610 > 8.8.8.8.53: 20850+ AAAA? ocsp.globalsign.com. (37)
+21:29:42.287253 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.60610: 22067 6/0/0 CNAME cdn-default.globalsigncdn.com., CNAME prod.globalsign.map.fastly.net., A 151.101.130.133, A 151.101.194.133, A 151.101.66.133, A 151.101.2.133 (185)
+21:29:42.291977 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.60610: 20850 6/0/0 CNAME cdn-default.globalsigncdn.com., CNAME prod.globalsign.map.fastly.net., AAAA 2a04:4e42:400::645, AAAA 2a04:4e42:200::645, AAAA 2a04:4e42::645, AAAA 2a04:4e42:600::645 (233)
+21:29:42.294045 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [S], seq 1387526386, win 64240, options [mss 1460,sackOK,TS val 3789560658 ecr 0,nop,wscale 7], length 0
+21:29:42.326227 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [S.], seq 2255496705, ack 1387526387, win 65535, options [mss 1460], length 0
+21:29:42.326383 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 1, win 64240, length 0
+21:29:42.327200 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [P.], seq 1:459, ack 1, win 64240, length 458: HTTP: POST /gsgccr6alphasslca2023 HTTP/1.1
+21:29:42.327671 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 459, win 65535, length 0
+21:29:42.335654 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [.], seq 1:2881, ack 1910, win 65535, length 2880
+21:29:42.335777 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [.], ack 2881, win 65535, length 0
+21:29:42.336250 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [P.], seq 2881:5117, ack 1910, win 65535, length 2236
+21:29:42.336296 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [.], ack 5117, win 65535, length 0
+21:29:42.358472 enp0s3 Out IP 10.0.2.15.53018 > 151.101.130.133.80: Flags [S], seq 1940458960, win 64240, options [mss 1460,sackOK,TS val 3789560722 ecr 0,nop,wscale 7], length 0
+21:29:42.376585 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [P.], seq 1:2021, ack 459, win 65535, length 2020: HTTP: HTTP/1.1 200 OK
+21:29:42.376711 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 2021, win 62220, length 0
+21:29:42.377599 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [P.], seq 459:917, ack 2021, win 63360, length 458: HTTP: POST /gsgccr6alphasslca2023 HTTP/1.1
+21:29:42.380293 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:29:42.383670 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53018: Flags [S.], seq 2255560705, ack 1940458961, win 65535, options [mss 1460], length 0
+21:29:42.383819 enp0s3 Out IP 10.0.2.15.53018 > 151.101.130.133.80: Flags [.], ack 1, win 64240, length 0
+21:29:42.388260 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [P.], seq 1910:1974, ack 5117, win 65535, length 64
+21:29:42.388451 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 1974, win 65535, length 0
+21:29:42.390349 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [P.], seq 1974:2066, ack 5117, win 65535, length 92
+21:29:42.390546 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [P.], seq 2066:2412, ack 5117, win 65535, length 346
+21:29:42.390723 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 2066, win 65535, length 0
+21:29:42.390740 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 2412, win 65535, length 0
+21:29:42.411831 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [P.], seq 2021:2586, ack 917, win 65535, length 565: HTTP: HTTP/1.1 200 OK
+21:29:42.415829 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [P.], seq 2586:4041, ack 917, win 65535, length 1455: HTTP
+21:29:42.416354 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:29:42.422317 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [P.], seq 1910:1974, ack 5117, win 65535, length 64
+21:29:42.422818 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [.], ack 1974, win 65535, length 0
+21:29:42.423340 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [P.], seq 1974:2083, ack 5117, win 65535, length 109
+21:29:42.423884 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [.], ack 2083, win 65535, length 0
+21:29:42.424865 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [P.], seq 2083:2107, ack 5117, win 65535, length 24
+21:29:42.425120 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [F.], seq 2107, ack 5117, win 65535, length 0
+21:29:42.425272 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [.], ack 2107, win 65535, length 0
+21:29:42.427134 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [.], ack 2108, win 65535, length 0
+21:29:42.671042 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 5117:5222, ack 2412, win 65535, length 105
+21:29:42.671195 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 5222, win 65535, length 0
+21:29:42.671533 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [P.], seq 2412:2443, ack 5222, win 65535, length 31
+21:29:42.671969 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 2443, win 65535, length 0
+21:29:42.710276 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 5222:9241, ack 2443, win 65535, length 4019
+21:29:42.710379 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 9241, win 65535, length 0
+21:29:42.726381 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 9241:10491, ack 2443, win 65535, length 1250
+21:29:42.744486 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 10491:11741, ack 2443, win 65535, length 1250
+21:29:42.744691 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 11741, win 65535, length 0
+21:29:42.764455 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [P.], seq 5117:5141, ack 2108, win 65535, length 24
+21:29:42.764455 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [R], seq 1737572862, win 0, length 0
+21:29:42.764455 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [F.], seq 5141, ack 2108, win 65535, length 0
+21:29:42.764455 enp0s3 Out IP 10.0.2.15.55260 > 35.185.44.232.443: Flags [R], seq 1737572862, win 0, length 0
+21:29:42.767185 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55260: Flags [R.], seq 2039534591, ack 2108, win 0, length 0
+21:29:42.771538 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 11741:12991, ack 2443, win 65535, length 1250
+21:29:42.775349 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 12991:14241, ack 2443, win 65535, length 1250
+21:29:42.775561 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 14241, win 65535, length 0
+21:29:42.787751 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 14241:15491, ack 2443, win 65535, length 1250
+21:29:42.798565 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 15491:16741, ack 2443, win 65535, length 1250
+21:29:42.798704 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 16741, win 65535, length 0
+21:29:42.812307 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 16741:17991, ack 2443, win 65535, length 1250
+21:29:42.854240 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 17991:21741, ack 2443, win 65535, length 3750
+21:29:42.854351 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 21741, win 65535, length 0
+21:29:42.950835 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 21741:22991, ack 2443, win 65535, length 1250
+21:29:42.959147 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 22991:24241, ack 2443, win 65535, length 1250
+21:29:42.959247 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 24241, win 65535, length 0
+21:29:42.978579 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 24241:25491, ack 2443, win 65535, length 1250
+21:29:42.989909 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 25491:26741, ack 2443, win 65535, length 1250
+21:29:42.989909 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 26741, win 65535, length 0
+21:29:42.996173 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 26741:27991, ack 2443, win 65535, length 1250
+21:29:43.007741 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 27991:29241, ack 2443, win 65535, length 1250
+21:29:43.007935 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 29241, win 65535, length 0
+21:29:43.016312 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 29241:30491, ack 2443, win 65535, length 1250
+21:29:43.036342 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 30491:31741, ack 2443, win 65535, length 1250
+21:29:43.036458 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 31741, win 65535, length 0
+21:29:43.047358 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 31741:32991, ack 2443, win 65535, length 1250
+21:29:43.053981 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 32991:34241, ack 2443, win 65535, length 1250
+21:29:43.054055 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 34241, win 65535, length 0
+21:29:43.061542 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 34241:35491, ack 2443, win 65535, length 1250
+21:29:43.076593 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 35491:36741, ack 2443, win 65535, length 1250
+21:29:43.076945 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 36741, win 65535, length 0
+21:29:43.088100 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 36741:37991, ack 2443, win 65535, length 1250
+21:29:43.094743 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 37991:39241, ack 2443, win 65535, length 1250
+21:29:43.094838 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 39241, win 65535, length 0
+21:29:43.106168 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 39241:40491, ack 2443, win 65535, length 1250
+21:29:43.128293 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 40491:41741, ack 2443, win 65535, length 1250
+21:29:43.128411 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 41741, win 65535, length 0
+21:29:43.129779 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 41741:42991, ack 2443, win 65535, length 1250
+21:29:43.139438 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 42991:44241, ack 2443, win 65535, length 1250
+21:29:43.139521 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 44241, win 65535, length 0
+21:29:43.157027 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 44241:45491, ack 2443, win 65535, length 1250
+21:29:43.167974 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 45491:46741, ack 2443, win 65535, length 1250
+21:29:43.168083 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 46741, win 65535, length 0
+21:29:43.174195 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 46741:47991, ack 2443, win 65535, length 1250
+21:29:43.192707 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 47991:49241, ack 2443, win 65535, length 1250
+21:29:43.192987 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 49241, win 65535, length 0
+21:29:43.196550 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 49241:50491, ack 2443, win 65535, length 1250
+21:29:43.209004 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 50491:51741, ack 2443, win 65535, length 1250
+21:29:43.209147 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 51741, win 65535, length 0
+21:29:43.226047 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 51741:52991, ack 2443, win 65535, length 1250
+21:29:43.236384 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 52991:54241, ack 2443, win 65535, length 1250
+21:29:43.236721 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 54241, win 65535, length 0
+21:29:43.241502 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 54241:55491, ack 2443, win 65535, length 1250
+21:29:43.247829 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 55491:57991, ack 2443, win 65535, length 2500
+21:29:43.248442 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 57991, win 65535, length 0
+21:29:43.262798 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 57991:59241, ack 2443, win 65535, length 1250
+21:29:43.262812 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 59241:60491, ack 2443, win 65535, length 1250
+21:29:43.263798 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 60491, win 65535, length 0
+21:29:43.276197 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 60491:61741, ack 2443, win 65535, length 1250
+21:29:43.279925 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 61741:64241, ack 2443, win 65535, length 2500
+21:29:43.279928 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 64241, win 65535, length 0
+21:29:43.286569 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 64241:65491, ack 2443, win 65535, length 1250
+21:29:43.294518 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 65491:66741, ack 2443, win 65535, length 1250
+21:29:43.294609 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 66741, win 65535, length 0
+21:29:43.298260 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 66741:67991, ack 2443, win 65535, length 1250
+21:29:43.303915 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 67991:69241, ack 2443, win 65535, length 1250
+21:29:43.304016 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 69241, win 65535, length 0
+21:29:43.310458 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 69241:70491, ack 2443, win 65535, length 1250
+21:29:43.318092 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 70491:71741, ack 2443, win 65535, length 1250
+21:29:43.318193 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 71741, win 65535, length 0
+21:29:43.323843 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 71741:72991, ack 2443, win 65535, length 1250
+21:29:43.329350 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 72991:74241, ack 2443, win 65535, length 1250
+21:29:43.329460 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 74241, win 65535, length 0
+21:29:43.335353 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 74241:75491, ack 2443, win 65535, length 1250
+21:29:43.344117 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 75491:76741, ack 2443, win 65535, length 1250
+21:29:43.344293 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 76741, win 65535, length 0
+21:29:43.347231 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 76741:77991, ack 2443, win 65535, length 1250
+21:29:43.354947 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 77991:79241, ack 2443, win 65535, length 1250
+21:29:43.355073 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 79241, win 65535, length 0
+21:29:43.359541 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 79241:80491, ack 2443, win 65535, length 1250
+21:29:43.379369 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 80491:81741, ack 2443, win 65535, length 1250
+21:29:43.379510 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 81741, win 65535, length 0
+21:29:43.382918 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 81741:82991, ack 2443, win 65535, length 1250
+21:29:43.393066 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 82991:85491, ack 2443, win 65535, length 2500
+21:29:43.393229 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 85491, win 65535, length 0
+21:29:43.395558 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 85491:86528, ack 2443, win 65535, length 1037
+21:29:43.437339 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 86528, win 65535, length 0
+21:29:47.428745 enp0s3 Out IP 10.0.2.15.53018 > 151.101.130.133.80: Flags [F.], seq 1, ack 1, win 64240, length 0
+21:29:47.430461 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53018: Flags [.], ack 2, win 65535, length 0
+21:29:47.570801 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53018: Flags [F.], seq 1, ack 2, win 65535, length 0
+21:29:47.570970 enp0s3 Out IP 10.0.2.15.53018 > 151.101.130.133.80: Flags [.], ack 2, win 64240, length 0
+21:29:47.910913 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 86528:86567, ack 2443, win 65535, length 39
+21:29:47.911131 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [.], ack 86567, win 65535, length 0
+21:29:47.912351 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [P.], seq 2443:2482, ack 86567, win 65535, length 39
+21:29:47.913161 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 2482, win 65535, length 0
+21:29:47.915357 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [P.], seq 2482:2506, ack 86567, win 65535, length 24
+21:29:47.916240 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 2506, win 65535, length 0
+21:29:47.917871 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [F.], seq 2506, ack 86567, win 65535, length 0
+21:29:47.918810 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [.], ack 2507, win 65535, length 0
+21:29:48.266618 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [P.], seq 86567:86591, ack 2507, win 65535, length 24
+21:29:48.266722 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [R], seq 3742590750, win 0, length 0
+21:29:48.266656 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [F.], seq 86591, ack 2507, win 65535, length 0
+21:29:48.267054 enp0s3 Out IP 10.0.2.15.55246 > 35.185.44.232.443: Flags [R], seq 3742590750, win 0, length 0
+21:29:48.268037 enp0s3 In  IP 35.185.44.232.443 > 10.0.2.15.55246: Flags [R.], seq 2039662591, ack 2507, win 0, length 0
+21:29:52.484321 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:29:52.485567 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:30:02.514149 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:30:02.518959 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:30:12.537683 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:30:12.538893 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:30:22.565046 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:30:22.565489 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:30:27.684931 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:30:27.686209 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:30:32.591071 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:30:32.592318 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:30:36.554464 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:30:36.555489 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:30:37.462965 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 3208:3247, ack 8238, win 65535, length 39
+21:30:37.463769 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 3247, win 65535, length 0
+21:30:37.484609 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [P.], seq 8238:8277, ack 3247, win 65535, length 39
+21:30:37.484870 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [.], ack 8277, win 65535, length 0
+21:30:42.628470 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:30:42.628993 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:30:52.645532 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:30:52.646501 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:31:02.671517 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:31:02.672098 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:31:12.698844 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:31:12.699561 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:31:17.817415 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:31:17.819596 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:31:22.724332 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:31:22.725657 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:31:32.752164 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4041, win 63360, length 0
+21:31:32.754412 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 917, win 65535, length 0
+21:31:37.226684 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:31:37.228581 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:31:39.468557 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 3247:3286, ack 8277, win 65535, length 39
+21:31:39.469343 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 3286, win 65535, length 0
+21:31:39.469718 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [F.], seq 917, ack 4041, win 63360, length 0
+21:31:39.470458 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [.], ack 918, win 65535, length 0
+21:31:39.647715 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [P.], seq 8277:8316, ack 3286, win 65535, length 39
+21:31:39.647952 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [.], ack 8316, win 65535, length 0
+21:31:39.647744 enp0s3 In  IP 151.101.130.133.80 > 10.0.2.15.53012: Flags [F.], seq 4041, ack 918, win 65535, length 0
+21:31:39.648196 enp0s3 Out IP 10.0.2.15.53012 > 151.101.130.133.80: Flags [.], ack 4042, win 63360, length 0
+21:32:25.534726 enp0s3 M   IP6 fe80::2 > ff02::1: ICMP6, router advertisement, length 80
+21:32:25.543896 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:32:26.243992 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:32:29.476211 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 3286:3325, ack 8316, win 65535, length 39
+21:32:29.477582 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 3325, win 65535, length 0
+21:32:29.478983 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [P.], seq 3325:3349, ack 8316, win 65535, length 24
+21:32:29.479349 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [F.], seq 3349, ack 8316, win 65535, length 0
+21:32:29.480435 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 3349, win 65535, length 0
+21:32:29.480512 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [.], ack 3350, win 65535, length 0
+21:32:29.521066 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [P.], seq 8316:8340, ack 3350, win 65535, length 24
+21:32:29.521208 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [R], seq 2865874068, win 0, length 0
+21:32:29.521111 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [F.], seq 8340, ack 3350, win 65535, length 0
+21:32:29.521632 enp0s3 Out IP 10.0.2.15.49260 > 151.101.129.229.443: Flags [R], seq 2865874068, win 0, length 0
+21:32:29.522528 enp0s3 In  IP 151.101.129.229.443 > 10.0.2.15.49260: Flags [R.], seq 2040046591, ack 3350, win 0, length 0
+21:32:34.617551 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:32:34.618648 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:32:38.038743 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:32:38.039819 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:33:38.400494 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:33:38.401289 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:33:43.525303 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:33:43.528916 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:34:14.216376 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [P.], seq 1291:1411, ack 2140, win 65535, length 120
+21:34:14.229204 enp0s3 Out IP 10.0.2.15.40885 > 8.8.8.8.53: 3409+ A? firefox.settings.services.mozilla.com. (55)
+21:34:14.258247 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [.], ack 1411, win 62830, length 0
+21:34:14.262256 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.40885: 3409 5/0/0 CNAME mozilla.map.fastly.net., A 151.101.193.91, A 151.101.65.91, A 151.101.129.91, A 151.101.1.91 (155)
+21:34:14.266578 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [S], seq 796110389, win 64240, options [mss 1460,sackOK,TS val 760092846 ecr 0,nop,wscale 7], length 0
+21:34:14.303083 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [S.], seq 2289672705, ack 796110390, win 65535, options [mss 1460], length 0
+21:34:14.303232 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [.], ack 1, win 64240, length 0
+21:34:14.305011 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+21:34:14.305906 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 518, win 65535, length 0
+21:34:14.345612 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [P.], seq 1:157, ack 518, win 65535, length 156
+21:34:14.345932 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [.], ack 157, win 64084, length 0
+21:34:14.348146 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 518:569, ack 157, win 64084, length 51
+21:34:14.349221 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 569, win 65535, length 0
+21:34:14.350604 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 569:668, ack 157, win 64084, length 99
+21:34:14.350930 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 668:920, ack 157, win 64084, length 252
+21:34:14.352018 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 668, win 65535, length 0
+21:34:14.352057 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 920, win 65535, length 0
+21:34:14.400028 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [P.], seq 157:1966, ack 920, win 65535, length 1809
+21:34:14.400744 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [.], ack 1966, win 62275, length 0
+21:34:14.401335 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 920:958, ack 1966, win 62275, length 38
+21:34:14.402647 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 958, win 65535, length 0
+21:34:14.405875 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [P.], seq 1966:5716, ack 958, win 65535, length 3750
+21:34:14.406476 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [.], ack 5716, win 58525, length 0
+21:34:14.411581 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [P.], seq 5716:8382, ack 958, win 65535, length 2666
+21:34:14.412427 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [.], ack 8382, win 55859, length 0
+21:34:38.436428 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:34:38.438634 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:35:16.115959 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 958:1004, ack 8382, win 57600, length 46
+21:35:16.119359 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 1004, win 65535, length 0
+21:35:16.171465 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [P.], seq 8382:8428, ack 1004, win 65535, length 46
+21:35:16.213796 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [.], ack 8428, win 57600, length 0
+21:35:21.230844 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:35:21.232102 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:35:38.979236 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:35:38.980614 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:36:15.125532 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 1004:1050, ack 8428, win 57600, length 46
+21:36:15.126952 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 1050, win 65535, length 0
+21:36:15.442309 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [P.], seq 8428:8474, ack 1050, win 65535, length 46
+21:36:15.442556 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [.], ack 8474, win 57554, length 0
+21:36:39.453893 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:36:39.455005 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:37:04.431602 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 1050:1096, ack 8474, win 57554, length 46
+21:37:04.432240 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 1096, win 65535, length 0
+21:37:04.432377 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [P.], seq 1096:1127, ack 8474, win 57554, length 31
+21:37:04.432501 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [F.], seq 1127, ack 8474, win 57554, length 0
+21:37:04.432942 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 1127, win 65535, length 0
+21:37:04.432958 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [.], ack 1128, win 65535, length 0
+21:37:04.802380 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [P.], seq 8474:8505, ack 1128, win 65535, length 31
+21:37:04.802523 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [R], seq 796111517, win 0, length 0
+21:37:04.802418 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [F.], seq 8505, ack 1128, win 65535, length 0
+21:37:04.802805 enp0s3 Out IP 10.0.2.15.43004 > 151.101.193.91.443: Flags [R], seq 796111517, win 0, length 0
+21:37:04.805295 enp0s3 In  IP 151.101.193.91.443 > 10.0.2.15.43004: Flags [R.], seq 2005294591, ack 1128, win 0, length 0
+21:37:09.604161 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:37:09.605984 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:37:40.047259 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:37:40.048147 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:38:40.314801 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:38:40.315461 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:38:45.392379 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:38:45.394092 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:39:13.225616 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [F.], seq 1411, ack 2140, win 65535, length 0
+21:39:13.226286 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [P.], seq 2140:2164, ack 1412, win 62829, length 24
+21:39:13.226617 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [.], ack 2164, win 65535, length 0
+21:39:13.228481 enp0s3 Out IP 10.0.2.15.34446 > 34.107.243.93.443: Flags [F.], seq 2164, ack 1412, win 62829, length 0
+21:39:13.228783 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.34446: Flags [.], ack 2165, win 65535, length 0
+21:39:18.239005 enp0s3 Out IP 10.0.2.15.46764 > 8.8.8.8.53: 35671+ A? push.services.mozilla.com. (43)
+21:39:18.239474 enp0s3 Out IP 10.0.2.15.46764 > 8.8.8.8.53: 6603+ AAAA? push.services.mozilla.com. (43)
+21:39:18.280175 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.46764: 35671 1/0/0 A 34.107.243.93 (59)
+21:39:18.280226 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.46764: 6603 0/1/0 (124)
+21:39:18.295555 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [S], seq 699898864, win 64240, options [mss 1460,sackOK,TS val 175049863 ecr 0,nop,wscale 7], length 0
+21:39:18.324432 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [S.], seq 2328264705, ack 699898865, win 65535, options [mss 1460], length 0
+21:39:18.324568 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [.], ack 1, win 64240, length 0
+21:39:18.327242 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 1:2526, ack 1, win 64240, length 2525
+21:39:18.327847 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 1461, win 65535, length 0
+21:39:18.327860 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2526, win 65535, length 0
+21:39:18.358737 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [P.], seq 1:213, ack 2526, win 65535, length 212
+21:39:18.358893 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [.], ack 213, win 64028, length 0
+21:39:18.362094 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 2526:2590, ack 213, win 64028, length 64
+21:39:18.362661 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2590, win 65535, length 0
+21:39:18.365775 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 2590:2682, ack 213, win 64028, length 92
+21:39:18.366430 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2682, win 65535, length 0
+21:39:18.384340 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [P.], seq 213:831, ack 2682, win 65535, length 618
+21:39:18.386178 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 2682:2713, ack 831, win 63410, length 31
+21:39:18.389551 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2713, win 65535, length 0
+21:39:18.391617 enp0s3 Out IP 10.0.2.15.36512 > 34.107.243.93.443: Flags [S], seq 194901755, win 64240, options [mss 1460,sackOK,TS val 175049959 ecr 0,nop,wscale 7], length 0
+21:39:18.413200 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [P.], seq 831:862, ack 2713, win 65535, length 31
+21:39:18.413219 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36512: Flags [S.], seq 2328328705, ack 194901756, win 65535, options [mss 1460], length 0
+21:39:18.413706 enp0s3 Out IP 10.0.2.15.36512 > 34.107.243.93.443: Flags [.], ack 1, win 64240, length 0
+21:39:18.416458 enp0s3 Out IP 10.0.2.15.36512 > 34.107.243.93.443: Flags [P.], seq 1:1251, ack 1, win 64240, length 1250
+21:39:18.417277 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36512: Flags [.], ack 1251, win 65535, length 0
+21:39:18.454209 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [.], ack 862, win 63379, length 0
+21:39:18.473357 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36512: Flags [P.], seq 1:219, ack 1251, win 65535, length 218
+21:39:18.473555 enp0s3 Out IP 10.0.2.15.36512 > 34.107.243.93.443: Flags [.], ack 219, win 64022, length 0
+21:39:18.475331 enp0s3 Out IP 10.0.2.15.36512 > 34.107.243.93.443: Flags [P.], seq 1251:1315, ack 219, win 64022, length 64
+21:39:18.475774 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36512: Flags [.], ack 1315, win 65535, length 0
+21:39:18.477377 enp0s3 Out IP 10.0.2.15.36512 > 34.107.243.93.443: Flags [P.], seq 1315:1945, ack 219, win 64022, length 630
+21:39:18.477695 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36512: Flags [.], ack 1945, win 65535, length 0
+21:39:18.741332 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36512: Flags [P.], seq 219:1051, ack 1945, win 65535, length 832
+21:39:18.761080 enp0s3 Out IP 10.0.2.15.36512 > 34.107.243.93.443: Flags [P.], seq 1945:2084, ack 1051, win 63190, length 139
+21:39:18.765304 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36512: Flags [.], ack 2084, win 65535, length 0
+21:39:19.026485 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36512: Flags [P.], seq 1051:1243, ack 2084, win 65535, length 192
+21:39:19.067316 enp0s3 Out IP 10.0.2.15.36512 > 34.107.243.93.443: Flags [.], ack 1243, win 62998, length 0
+21:39:41.298650 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:39:41.299488 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:40:17.395616 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 2713:2752, ack 862, win 63379, length 39
+21:40:17.396510 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2752, win 65535, length 0
+21:40:17.644381 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [P.], seq 862:901, ack 2752, win 65535, length 39
+21:40:17.644556 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [.], ack 901, win 63340, length 0
+21:40:41.571071 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:40:41.571950 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:40:45.025795 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:40:45.080706 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:40:50.026634 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:40:50.027894 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:41:09.859895 enp0s3 Out IP 10.0.2.15.123 > 192.46.215.60.123: NTPv4, Client, length 48
+21:41:10.029006 enp0s3 In  IP 192.46.215.60.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:11.860954 enp0s3 Out IP 10.0.2.15.123 > 192.46.215.60.123: NTPv4, Client, length 48
+21:41:12.209555 enp0s3 In  IP 192.46.215.60.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:13.859466 enp0s3 Out IP 10.0.2.15.123 > 192.46.215.60.123: NTPv4, Client, length 48
+21:41:13.889559 enp0s3 In  IP 192.46.215.60.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:14.984917 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:41:14.985586 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:41:15.859616 enp0s3 Out IP 10.0.2.15.123 > 192.46.215.60.123: NTPv4, Client, length 48
+21:41:15.914189 enp0s3 In  IP 192.46.215.60.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:16.240977 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 2752:2791, ack 901, win 63340, length 39
+21:41:16.242490 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2791, win 65535, length 0
+21:41:16.275437 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [P.], seq 901:940, ack 2791, win 65535, length 39
+21:41:16.275678 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [.], ack 940, win 63301, length 0
+21:41:17.859787 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:41:17.860362 enp0s3 Out IP 10.0.2.15.123 > 192.46.215.60.123: NTPv4, Client, length 48
+21:41:17.900378 enp0s3 In  IP 192.46.215.60.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:17.911264 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:19.860747 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:41:19.862017 enp0s3 Out IP 10.0.2.15.123 > 192.46.215.60.123: NTPv4, Client, length 48
+21:41:19.892765 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:19.898603 enp0s3 In  IP 192.46.215.60.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:21.859815 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:41:22.045792 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:22.880002 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:41:22.881266 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:41:23.859615 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:41:23.860181 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:41:23.860507 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:41:23.962099 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:24.321768 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:24.321787 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:25.860512 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:41:25.860948 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:41:25.862481 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:41:25.883798 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:25.911363 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:26.044682 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:26.860618 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2402:1f00:8300:821::123.123: NTPv4, Client, length 48
+21:41:26.895454 enp0s3 In  IP6 2402:1f00:8300:821::123.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:27.859583 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:41:27.860013 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:41:27.860431 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:41:27.887882 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:27.901064 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:28.049101 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:28.859918 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2402:1f00:8300:821::123.123: NTPv4, Client, length 48
+21:41:28.890766 enp0s3 In  IP6 2402:1f00:8300:821::123.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:29.860043 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:41:29.860467 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:41:29.915783 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:30.057719 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:30.860972 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2402:1f00:8300:821::123.123: NTPv4, Client, length 48
+21:41:30.893365 enp0s3 In  IP6 2402:1f00:8300:821::123.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:31.859777 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:41:31.860350 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:41:32.103153 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:32.466835 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:32.859677 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2402:1f00:8300:821::123.123: NTPv4, Client, length 48
+21:41:33.073529 enp0s3 In  IP6 2402:1f00:8300:821::123.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:33.860390 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:41:33.860811 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:41:33.983763 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:34.129555 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:34.859411 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2402:1f00:8300:821::123.123: NTPv4, Client, length 48
+21:41:34.870777 enp0s3 Out IP 10.0.2.15.35638 > 8.8.8.8.53: 8405+ A? 0.debian.pool.ntp.org. (39)
+21:41:34.871166 enp0s3 Out IP 10.0.2.15.35638 > 8.8.8.8.53: 30062+ AAAA? 0.debian.pool.ntp.org. (39)
+21:41:35.061632 enp0s3 In  IP6 2402:1f00:8300:821::123.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:35.199882 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.35638: 8405 4/0/0 A 103.82.208.166, A 192.46.215.60, A 3.6.43.90, A 103.136.36.100 (103)
+21:41:35.374628 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.35638: 30062 0/1/0 (94)
+21:41:35.383283 enp0s3 Out IP 10.0.2.15.123 > 103.82.208.166.123: NTPv4, Client, length 48
+21:41:35.385493 enp0s3 Out IP 10.0.2.15.123 > 3.6.43.90.123: NTPv4, Client, length 48
+21:41:35.386124 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48
+21:41:35.424698 enp0s3 In  IP 3.6.43.90.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:35.546782 enp0s3 In  IP 103.82.208.166.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:36.860030 enp0s3 Out IP 10.0.2.15.123 > 3.6.43.90.123: NTPv4, Client, length 48
+21:41:36.860592 enp0s3 Out IP 10.0.2.15.123 > 103.82.208.166.123: NTPv4, Client, length 48
+21:41:36.861137 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2402:1f00:8300:821::123.123: NTPv4, Client, length 48
+21:41:36.895760 enp0s3 In  IP 3.6.43.90.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:36.895804 enp0s3 In  IP6 2402:1f00:8300:821::123.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:36.913151 enp0s3 In  IP 103.82.208.166.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:37.859910 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:41:37.897301 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:38.859619 enp0s3 Out IP 10.0.2.15.123 > 3.6.43.90.123: NTPv4, Client, length 48
+21:41:38.860084 enp0s3 Out IP 10.0.2.15.123 > 103.82.208.166.123: NTPv4, Client, length 48
+21:41:38.890854 enp0s3 In  IP 3.6.43.90.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:38.913171 enp0s3 In  IP 103.82.208.166.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:39.859751 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:41:39.913516 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:40.859530 enp0s3 Out IP 10.0.2.15.123 > 3.6.43.90.123: NTPv4, Client, length 48
+21:41:40.860033 enp0s3 Out IP 10.0.2.15.123 > 103.82.208.166.123: NTPv4, Client, length 48
+21:41:40.889216 enp0s3 In  IP 3.6.43.90.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:40.914064 enp0s3 In  IP 103.82.208.166.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:41.696482 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:41:41.697359 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:41:41.859748 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:41:42.024008 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:42.859887 enp0s3 Out IP 10.0.2.15.123 > 3.6.43.90.123: NTPv4, Client, length 48
+21:41:42.860196 enp0s3 Out IP 10.0.2.15.123 > 103.82.208.166.123: NTPv4, Client, length 48
+21:41:43.173470 enp0s3 In  IP 3.6.43.90.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:43.373276 enp0s3 In  IP 103.82.208.166.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:43.859597 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:41:44.235735 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:44.859650 enp0s3 Out IP 10.0.2.15.123 > 3.6.43.90.123: NTPv4, Client, length 48
+21:41:44.860268 enp0s3 Out IP 10.0.2.15.123 > 103.82.208.166.123: NTPv4, Client, length 48
+21:41:44.971368 enp0s3 In  IP 3.6.43.90.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:45.004246 enp0s3 In  IP 103.82.208.166.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:41:45.859829 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:41:45.889258 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:46.859643 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:41:47.066504 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:47.859687 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:41:47.888778 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:48.859653 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:41:49.063419 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:50.860277 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:41:51.039654 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:41:51.043494 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:41:51.078628 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:52.859737 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:41:53.318734 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:54.859846 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:41:55.560598 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:41:56.860732 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:41:57.050111 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:42:13.023449 enp0s3 M   IP6 fe80::2 > ff02::1: ICMP6, router advertisement, length 80
+21:42:13.032677 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:42:13.413718 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+21:42:15.249951 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 2791:2830, ack 940, win 63301, length 39
+21:42:15.251037 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2830, win 65535, length 0
+21:42:15.252588 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 2830:2869, ack 940, win 63301, length 39
+21:42:15.253220 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2869, win 65535, length 0
+21:42:15.253435 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [P.], seq 2869:2893, ack 940, win 63301, length 24
+21:42:15.253699 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [F.], seq 2893, ack 940, win 63301, length 0
+21:42:15.254038 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2893, win 65535, length 0
+21:42:15.254062 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [.], ack 2894, win 65535, length 0
+21:42:15.490055 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [P.], seq 940:979, ack 2894, win 65535, length 39
+21:42:15.490146 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [R], seq 699901758, win 0, length 0
+21:42:15.490077 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [F.], seq 979, ack 2894, win 65535, length 0
+21:42:15.490293 enp0s3 Out IP 10.0.2.15.36504 > 34.107.243.93.443: Flags [R], seq 699901758, win 0, length 0
+21:42:15.490828 enp0s3 In  IP 34.107.243.93.443 > 10.0.2.15.36504: Flags [R.], seq 1966702591, ack 2894, win 0, length 0
+21:42:18.860807 enp0s3 Out IP 10.0.2.15.123 > 192.46.215.60.123: NTPv4, Client, length 48
+21:42:19.054729 enp0s3 In  IP 192.46.215.60.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:42:20.266188 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:42:20.267165 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:42:26.860359 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2605:e440:19::342.123: NTPv4, Client, length 48
+21:42:27.228815 enp0s3 In  IP6 2605:e440:19::342.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:42:30.859779 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:3000:2945:5400:4ff:fe69:f923.123: NTPv4, Client, length 48
+21:42:30.938015 enp0s3 In  IP6 2401:c080:3000:2945:5400:4ff:fe69:f923.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:42:31.859706 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:1625::1.123: NTPv4, Client, length 48
+21:42:31.998869 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:42:32.000083 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:42:32.111825 enp0s3 In  IP6 2a01:4f9:c010:1625::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:42:39.860069 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48
+21:42:41.860882 enp0s3 Out IP 10.0.2.15.123 > 3.6.43.90.123: NTPv4, Client, length 48
+21:42:41.904023 enp0s3 In  IP 3.6.43.90.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:42:42.539594 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:42:42.540647 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:42:42.859904 enp0s3 Out IP 10.0.2.15.123 > 103.82.208.166.123: NTPv4, Client, length 48
+21:42:42.940482 enp0s3 In  IP 103.82.208.166.123 > 10.0.2.15.123: NTPv4, Server, length 48
+21:42:43.860029 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123: NTPv4, Client, length 48
+21:42:43.910642 enp0s3 In  IP6 2401:c080:2400:1c19:5400:4ff:fe0b:be05.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:42:55.860391 enp0s3 Out IP6 fd17:625c:f037:2:4606:90cb:a2eb:c038.123 > 2a01:4f9:c010:c22::1.123: NTPv4, Client, length 48
+21:42:56.019147 enp0s3 In  IP6 2a01:4f9:c010:c22::1.123 > fd17:625c:f037:2:4606:90cb:a2eb:c038.123: NTPv4, Server, length 48
+21:43:01.012190 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > fe80::2: ICMP6, neighbor solicitation, who has fe80::2, length 32
+21:43:01.014145 enp0s3 In  IP6 fe80::2 > fe80::4618:d27b:cd2:3cd6: ICMP6, neighbor advertisement, tgt is fe80::2, length 32
+21:43:42.899680 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+21:43:42.900479 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+21:43:46.860344 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48
+21:43:47.251651 enp0s3 In  IP 103.136.36.100.123 > 10.0.2.15.123: NTPv3, Server, length 48
+21:43:47.947061 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+21:43:47.948745 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+21:43:48.862265 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48
+21:43:49.088943 enp0s3 In  IP 103.136.36.100.123 > 10.0.2.15.123: NTPv3, Server, length 48
+21:43:50.859919 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48
+21:43:51.029271 enp0s3 In  IP 103.136.36.100.123 > 10.0.2.15.123: NTPv3, Server, length 48
+21:43:52.859543 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48
+21:43:52.968028 enp0s3 In  IP 103.136.36.100.123 > 10.0.2.15.123: NTPv3, Server, length 48
+21:43:54.860218 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48
+21:43:55.007485 enp0s3 In  IP 103.136.36.100.123 > 10.0.2.15.123: NTPv3, Server, length 48
+21:43:56.862037 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48
+21:43:57.271199 enp0s3 In  IP 103.136.36.100.123 > 10.0.2.15.123: NTPv3, Server, length 48
+08:54:14.688353 enp0s3 M   IP6 fe80::2 > ff02::1: ICMP6, router advertisement, length 80
+08:54:14.714935 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+08:54:15.611748 enp0s3 Out IP6 fe80::4618:d27b:cd2:3cd6 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+08:54:17.439520 enp0s3 Out IP 10.0.2.15.59853 > 8.8.8.8.53: 37996+ AAAA? blacklatch-sentinel. (37)
+08:54:17.681397 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.59853: 37996 NXDomain 0/1/0 (112)
+08:54:18.027628 enp0s3 Out IP 10.0.2.15.56069 > 8.8.8.8.53: 48016+ AAAA? blacklatch-sentinel. (37)
+08:54:18.086436 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.56069: 48016 NXDomain 0/1/0 (112)
+08:54:36.452287 enp0s3 Out IP 10.0.2.15.37018 > 8.8.8.8.53: 18315+ AAAA? blacklatch-sentinel. (37)
+08:54:36.639486 enp0s3 In  IP 8.8.8.8.53 > 10.0.2.15.37018: 18315 NXDomain 0/1/0 (112)
+08:54:57.257931 enp0s3 Out IP 10.0.2.15.68 > 10.0.2.2.67: BOOTP/DHCP, Request from 08:00:27:5a:4e:b3, length 297
+08:54:57.269191 enp0s3 B   IP 10.0.2.2.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 548
+08:55:02.324722 enp0s3 Out ARP, Request who-has 10.0.2.2 tell 10.0.2.15, length 28
+08:55:02.339001 enp0s3 In  ARP, Reply 10.0.2.2 is-at 52:55:0a:00:02:02, length 50
+08:55:09.861878 enp0s3 Out IP 10.0.2.15.123 > 103.136.36.100.123: NTPv4, Client, length 48

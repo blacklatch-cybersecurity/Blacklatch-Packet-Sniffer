@@ -1,0 +1,27 @@
+cat > /root/cyber-projects/packet-sniffer/app/templates/index.html <<'HTML'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="3">
+  <title>Blacklatch Packet Sniffer</title>
+  <style>
+    body { background:#0d1117; color:#e6edf3; font-family:Arial,sans-serif; }
+    .container { width:950px; margin:30px auto; background:#161b22; padding:18px; border-radius:10px; }
+    h2 { color:#58a6ff; margin:0 0 8px 0; }
+    pre { background:#0b1220; padding:12px; border-radius:8px; max-height:640px; overflow:auto; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Blacklatch Live Packet Sniffer</h2>
+    <p>Auto-refresh every 3 seconds. Showing recent packets:</p>
+    <pre>
+{% for line in packets %}
+{{ line }}
+{% endfor %}
+    </pre>
+  </div>
+</body>
+</html>
+HTML
